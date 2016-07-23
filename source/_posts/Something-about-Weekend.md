@@ -13,17 +13,12 @@ webpack配置项中有一个叫[entry]的，有一个叫[context]的，现在你
 	* 字符串如：`entry: './page1'` 经过处理应得出：`entry: '/project/page1'`
 	* 数组如： `entry: ['./entry1', './entry2']` 经过处理应得出：`entry: ['/project/entry1', '/project/entry2']`
 	* 对象如： 
-
-		```js
+		```
 			entry: {
 			   page1: './page1',
 			   page2: ['./entry1', './entry2']
 			}
-		```
-		
-		经过处理应得出： 
-		
-		```js
+			// 经过处理应得出： 
 			entry: {
 			   page1: '/project/page1',
 			   page2: ['/project/entry1', '/project/entry2']
