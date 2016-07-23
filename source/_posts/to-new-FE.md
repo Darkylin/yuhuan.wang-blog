@@ -88,12 +88,13 @@ js包含三部分:BOM DOM ES， 在H5前，BOM无规范，主要靠浏览器自�
 * 如果想看w3c规范，先学下: [怎么读w3c文档](http://alistapart.com/article/readspec)
 
 ## [bash常用命令](http://www.freeos.com/guides/lsst/)
+最典型应用是登录服务机器查日志
 ## [nginx与反向代理](http://nginx.org/en/docs/beginners_guide.html)
 ## UI与UE
 这需要一点美学，平时多看多想。*先会抄再去评最后创造。*
 
 # 题外话
-建议你使用macbook，osx相比windows对node社区支持更完善。
+建议你使用macbook，windows只是声称支持POSIX而已。
 
 
 [safari]: https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html
