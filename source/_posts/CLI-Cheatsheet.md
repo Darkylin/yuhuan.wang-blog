@@ -83,12 +83,11 @@ _**所有叹号标记（exclamation point）都和上面的例子一样，可以
 ## 管道符使用举例
 假设有一个日志文件 test.log
 
->
-[2016-07-01 08:10:00] userA visit indexPage
-[2016-07-01 08:10:10] userB visit indexPage
-[2016-07-01 08:10:15] userA visit listPage
-[2016-07-01 08:10:20] userC visit indexPage
-[2016-07-01 08:10:25] userB visit listPage
+> [2016-07-01 08:10:00] userA visit indexPage
+> [2016-07-01 08:10:10] userB visit indexPage
+> [2016-07-01 08:10:15] userA visit listPage
+> [2016-07-01 08:10:20] userC visit indexPage
+> [2016-07-01 08:10:25] userB visit listPage
 
 现在想知道都有哪些用户访问了indexPage？
 
@@ -96,19 +95,17 @@ _**所有叹号标记（exclamation point）都和上面的例子一样，可以
 
 		grep indexPage test.log
 	得到：
-	>
-	[2016-07-01 08:10:00] userA visit indexPage
-	[2016-07-01 08:10:10] userB visit indexPage
-	[2016-07-01 08:10:20] userC visit indexPage
+	> [2016-07-01 08:10:00] userA visit indexPage
+	> [2016-07-01 08:10:10] userB visit indexPage
+	> [2016-07-01 08:10:20] userC visit indexPage
 	
 2. 然后将上一步的结果按空格分列，将第三列输出
 
 		grep indexPage test.log | awk '{print $3}'
 	得到：
-	>
-	userA
-	userB
-	userC
+	> userA
+	> userB
+	> userC
 
 # 用扩展填充当前命令
 
