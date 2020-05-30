@@ -101,8 +101,8 @@ js包含三部分:BOM DOM ES， 在H5前，BOM无规范，主要靠浏览器自�
 [chrome]: https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging
 [ide]: http://www.slant.co/topics/1686/compare/~webstorm_vs_atom_vs_sublime-text
 [git]: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-[jsconsole]: http://jsconsole.com/
-[volonjs]: http://vorlonjs.com/
+[JSConsole]: http://jsconsole.com/
+[vorlonjs]: http://vorlonjs.com/
 [browsersync]: https://www.browsersync.io/
 [webstorm]: https://www.jetbrains.com/help/webstorm/11.0/quick-start-guide.html
 [nodejs]: https://nodejs.org/docs/v4.2.4/api/
