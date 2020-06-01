@@ -77,7 +77,7 @@ google_analytics:
 
 # Busuanzi Statistics
 busuanzi:
-  enable: false
+  enable: true
   cdn: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
   site_views: true
   site_visitors: true
