@@ -1,0 +1,84 @@
+# Site config
+# ---------------------------------------------------------------
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title:
+
+# URL of the Home page image
+index_cover: /blog/images/photo-1590605417242-c345d9365941.jpeg
+
+# Set your own favicon
+favicon: /blog/images/avatar.jpg
+
+# Site start year
+# Default with current year
+start_year: 2016
+
+# Post config
+# ---------------------------------------------------------------
+
+# Default post title
+default_post_title: 未命名
+
+# Enable post toc
+toc: true
+
+# Post meta
+post_info:
+  word_count: true
+  read_time: true
+
+# Enable post mathjax render
+mathjax:
+  enable: false
+  cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus:
+    enable: false
+    shortname: 
+  # Gitalk
+  gitalk:
+    enable: true
+    owner: yuhuan-wang
+    repo: blog-gitalk
+    oauth:
+      clientId: 0de9d711c230c3a8b02c
+      clientSecret: 0fc3c1d284fc13558193c6ebb36f1dfadfcf9816
+    admin:
+      - Darkylin
+
+# Footer config
+# ---------------------------------------------------------------
+footer:
+  author:
+  menu:
+    Home: /
+    Archives: /archives
+    Tags: /tags
+    Categories: /categories
+    About: /about
+  social_link:
+    twitter_url:
+    twitter_handle:
+    facebook_url:
+    github_url: https://github.com/Darkylin/yuhuan.wang-blog
+    gitlab_url:
+    linkedin_url: 
+    mailto:
+
+# Tracking config
+# ---------------------------------------------------------------
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Busuanzi Statistics
+busuanzi:
+  enable: false
+  cdn: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+  site_views: true
+  site_visitors: true
+  post_views: true
